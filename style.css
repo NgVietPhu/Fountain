@@ -1,45 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1460px;
     height: 662px;
     margin: 0 auto;
     text-align: center;
     /* background: #00000066 40%; */
 }
-.background{
+
+.background {
     max-width: 1460px;
-    height: 662px; 
+    height: 662px;
     margin: 0 auto;
     text-align: center;
     /* background: #00000066 40%; */
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 96.43px;
     margin-bottom: 44px;
 }
-.logo{
-font-family: "Source Sans Pro";
-font-size: 32.8px;    
-color: #F77E23;
-font-weight: bold;
-text-decoration: none;
+
+.logo {
+    font-family: "Source Sans Pro";
+    font-size: 32.8px;
+    color: #F77E23;
+    font-weight: bold;
+    text-decoration: none;
 }
-.bars{
+
+.bars {
     display: none;
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 24px;
     list-style: none;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: white;
     text-transform: none;
@@ -47,25 +54,28 @@ nav a{
     font-family: "Open Sans";
     font-size: 16px;
 }
-.a-header{
+
+.a-header {
     font-weight: 600;
 }
 
-.button{
-    color: white;   
+.button {
+    color: white;
 }
-.login{
+
+.login {
     background: none;
     border: none;
-	outline: none;
+    outline: none;
     padding: 8px 18px;
     color: white;
-    font-family: "Source Sans Pro" ;
+    font-family: "Source Sans Pro";
     font-size: 16px;
     font-weight: 600;
 }
-.register{
-    font-family: "Source Sans Pro" ;
+
+.register {
+    font-family: "Source Sans Pro";
     font-size: 16px;
     font-weight: 600;
     color: #F77E23;
@@ -73,14 +83,15 @@ nav a{
     border-radius: 5px;
     border: none;
 }
-.search{
+
+.search {
     background: none;
     border: none;
-	outline: none;
+    outline: none;
     color: white;
 }
 
-.title{
+.title {
     /* height: 150px;
     width: 700px;
     font-family: "Roboto", sans-serif;;
@@ -97,7 +108,7 @@ nav a{
     flex-direction: column;
     justify-content: space-between;
     padding: 20px 0px; */
-    font-family:" Poppins";
+    font-family: " Poppins";
     font-weight: 700;
     font-size: 60px;
     line-height: 1.4;
@@ -106,7 +117,8 @@ nav a{
     color: #FFFFFF;
 
 }
-.sub-title{
+
+.sub-title {
     font-family: "Source Sans Pro";
     color: white;
     /* text-align: center;
@@ -125,65 +137,86 @@ nav a{
     text-align: center;
 }
 
-.get-start{
+.get-start {
     padding: 36px;
+
 }
-.btn-get-start{
+
+.get-start:hover .btn-get-start {
+    background: #FFFFFF;
+    color: #F77E23;
+
+}
+
+.btn-get-start {
     color: white;
     background: #F77E23;
     padding: 20px 42px;
     /* margin-bottom: 44px; */
     border-radius: 5px;
     border: none;
+    transition: all 0.5 ease;
 }
-.image_container{ 
+
+.image_container {
     max-width: 1440px;
     height: 662px;
 }
-.image_container img{
+
+
+.image_container img {
     position: absolute;
     width: 1440px;
     height: 662px;
-    object-fit:fill;
+    object-fit: fill;
     top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     z-index: -1;
     overflow: hidden;
+
 }
-.img-background-coler{
-    position: absolute;
+
+.img-background-coler {
+    /* position: absolute;
     width: 1440px;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background: #00000066 40%;
+    z-index: -1; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
     z-index: -1;
 }
 
-.container{
+.container {
     position: relative;
 }
 
-.wrap-options-chat{
+.wrap-options-chat {
     max-width: 1440px;
     height: 136px;
     background-color: #FFFFFF;
 }
+
 .options-chat {
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 12px;
     max-width: 969px;
-    position: absolute;
+
     /* right: 50%; */
     /* bottom: 0; */
-    transform: translate(50%,-50%);
+
     box-shadow: 0px 21px 97px 0px #CFCFCF40;
 
- 
 }
 
 .options-chat .btn-options-chat {
@@ -194,6 +227,7 @@ nav a{
     width: max-content;
     padding: 24px 0px;
 }
+
 .options-chat .btn-options-chat .btn-chat {
     display: flex;
     gap: 24px;
@@ -215,20 +249,22 @@ nav a{
     color: #F77E23;
 }
 
-.btn-chat p{
-    font-family: Poppins;
+.btn-chat p {
+    font-family: "Poppins";
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #000000;
 }
-.wrap-nav-bar{
+
+.wrap-nav-bar {
     position: absolute;
     left: 90%;
     bottom: 10%;
 }
-.nav-bar{
+
+.nav-bar {
     position: fixed;
     width: 50px;
     height: 50px;
@@ -239,23 +275,28 @@ nav a{
     align-items: center;
     z-index: 1000;
 }
-.btn-nav-bar{
+
+.btn-nav-bar {
     color: #FFFFFF;
     font-size: 24px;
     background: none;
     border: none;
 }
-@media only screen and (max-width:500px){
-    .container{
-       max-width: 427px;
+
+@media only screen and (max-width:500px) {
+    .container {
+        max-width: 427px;
     }
-    .container header nav,.container header .button {
-		display: none;
+
+    .container header nav,
+    .container header .button {
+        display: none;
         width: 428px;
         height: 90px;
-        top: 45px;  
-	}
-    .bars{
+        top: 45px;
+    }
+
+    .bars {
         display: block;
         display: flex;
         font-size: 32px;
@@ -264,29 +305,36 @@ nav a{
         align-items: center;
 
     }
-    .logo{
+
+    .logo {
         font-size: 23.96px;
     }
-    .wrap-logo{
+
+    .wrap-logo {
         display: none;
-        
+
     }
-    .dN{
+
+    .dN {
         display: none;
     }
-    .image_container img{
-        width: 760px;
+
+    .image_container img {
+        width: 100%;
         height: 507px;
         top: 135px;
-        left: -70px;
+        /* left: -70px; */
+        object-fit: cover;
     }
-    .img-background-coler{
+
+    .img-background-coler {
         width: 500px;
         height: 507px;
         top: 135px;
         left: -70px;
     }
-    .title{
+
+    .title {
         font-family: Poppins;
         font-weight: 700;
         font-size: 32px;
@@ -294,23 +342,28 @@ nav a{
         letter-spacing: 0%;
         text-align: center;
     }
-    .options-chat{
+
+    .options-chat {
         max-width: 363px;
         height: 132px;
-        
+
     }
-    
+
 }
+
 /*  */
-.content{
-    width: 1440px;
+.content {
+    width: 100%;
+    max-width: 1440px;
     height: 661px;
     top: 802px;
     display: grid;
     justify-content: center;
+    overflow-y: auto;
 
 }
-.cartegories{
+
+.cartegories {
     font-family: Poppins;
     font-weight: 600;
     font-size: 48px;
@@ -319,21 +372,24 @@ nav a{
     transform: translatey(21);
 
 }
-.box{
+
+.box {
     position: relative;
     width: 100%;
     max-width: 1241px;
     overflow: hidden;
-    
+
 }
-.wrap-card{
+
+.wrap-card {
     display: flex;
     gap: 32px;
-    overflow-y: hidden; 
-    
-    
+    overflow-y: hidden;
+
+
 }
-.card{
+
+.card {
     position: relative;
     width: 291px;
     height: 432px;
@@ -343,41 +399,49 @@ nav a{
     text-align: center;
     transition: all 0.5s ease;
 }
+
 .card .imgcart {
     width: 100%;
     height: 100%;
     left: -299px;
     object-fit: cover;
 }
-.img-card-Marketing{
+
+.img-card-Marketing {
     position: relative;
     left: -299px;
 }
-.img-card-Design{
+
+.img-card-Design {
     width: 291px;
     height: 432px;
 }
-.img-card-Programming{
+
+.img-card-Programming {
     width: 649px;
     height: 432px;
     left: -299px;
 }
-.img-card-Technology{
+
+.img-card-Technology {
     width: 291px;
     height: 432px;
     object-fit: cover;
 }
-.img-card-Cooking{
+
+.img-card-Cooking {
     width: 291px;
     height: 432px;
     object-fit: cover;
-    
+
 }
-.img-cart-Photography{
+
+.img-cart-Photography {
     width: 291px;
     height: 432px;
 }
-.card .background-img-card{
+
+.card .background-img-card {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -385,7 +449,8 @@ nav a{
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.wrap-text .text{
+
+.wrap-text .text {
     /* position: absolute; */
     top: 365px;
     left: 24px;
@@ -395,7 +460,8 @@ nav a{
     font-family: "Poppins";
     line-height: 100%;
 }
-.wrap-text{
+
+.wrap-text {
     position: absolute;
     width: 257px;
     height: 278px;
@@ -404,7 +470,8 @@ nav a{
     text-align: left;
     transition: all 0.5s ease;
 }
-.sub-text{
+
+.sub-text {
     font-family: "Poppins";
     font-weight: 400px;
     font-size: 16px;
@@ -413,14 +480,16 @@ nav a{
     color: #FFFFFF;
     text-align: left;
 }
-.card:hover .wrap-text{
+
+.card:hover .wrap-text {
     margin-top: -250px;
 }
 
-.see-all{
+.see-all {
     text-align: end;
 }
-.btn-see-all{
+
+.btn-see-all {
     font-family: Poppins;
     font-weight: 400;
     font-size: 24px;
@@ -431,18 +500,21 @@ nav a{
     background: none;
 
 }
- .wrap-carousel{
+
+.wrap-carousel {
     max-width: 1189px;
     height: 60px;
-    transform: translate(20px,-350%);
-} 
-.carousel{
+    transform: translate(20px, -350%);
+}
+
+.carousel {
     max-width: 1189px;
     background: none;
     display: flex;
     justify-content: space-between;
 }
-.wrap-nav{
+
+.wrap-nav {
     width: 60px;
     height: 60px;
     border-radius: 100px;
@@ -451,9 +523,290 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-.btn-nav{
+
+.btn-nav {
     background: none;
     border: none;
     color: #FFFFFF;
 }
 
+/*  */
+.wrap-section {
+    background-color: #00000066;
+    width: 1440px;
+    height: 666px;
+    top: 1563px;
+}
+
+.wrap-section .section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap-section .section .section-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-section .section .section-img .section-border-img {
+    position: relative;
+    width: 498px;
+    height: 498px;
+    top: 60px;
+    border-radius: 5389805px;
+    border: 3.38px solid #F77E23;
+    z-index: 0;
+}
+
+.wrap-section .section .section-img .section-border-img .section-border-img-insie {
+    position: relative;
+    width: 373.3087463378906px;
+    height: 373.3087463378906px;
+    top: 62.73px;
+    left: 62.73px;
+    border-radius: 450678.69px;
+    background: #FFE7DB;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.wrap-section .section .section-img .section-border-img-insie img {
+    position: absolute;
+    width: 900px;
+    top: -220px;
+    left: -440px;
+
+}
+
+.person {
+    position: absolute;
+    width: 404px;
+    top: -79px;
+    left: 36px;
+}
+
+.wrap-section .section .section-img .section-border-img .title-section {
+    position: relative;
+    width: 168px;
+    height: 210px;
+    top: 266px;
+    left: 367px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 69.23px 0px #70707040;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons-section svg {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(255, 231, 219, 1);
+    border-radius: 50px;
+    color: #F77E23;
+}
+
+.text-section p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.text-section p .outstanding {
+    position: relative;
+    font-weight: 600;
+    color: #F77E23;
+}
+
+.text-section p span svg {
+    position: absolute;
+    width: 100px;
+    top: 23px;
+    left: 15px;
+}
+
+.text-section p .instructors {
+    position: absolute;
+    font-family: "Poppins";
+    font-weight: 400;
+    top: 23px;
+    left: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .banner {
+        padding: 48px 24px;
+    }
+
+    .banner .sub-title {
+        padding: 48px 20px 0px 20px;
+    }
+
+    /* .btn-get-start{
+        padding-top: 12px;
+    } */
+    .image_container img {
+        width: calc(100% + 56px);
+        object-fit: cover;
+        object-position: left;
+        left: -56px;
+    }
+
+    .options-chat {
+        margin: auto;
+        width: 363px;
+        height: max-content;
+    }
+
+    .options-chat .btn-options-chat {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 cột bằng nhau */
+        grid-auto-rows: auto;  
+        max-width: 363px;
+        gap:0
+    }
+
+    .options-chat .btn-options-chat .btn-chat {
+        gap: 8px;
+
+    }
+
+
+    .options-chat .btn-options-chat .btn-chat:nth-child(3) {
+        grid-column: 1 / -1;    /* chiếm từ cột 1 đến cột cuối */
+        justify-self: center;   /* canh giữa theo chiều ngang trong ô lưới */
+        width: 50%; 
+    }
+
+
+
+    .options-chat .chat-icon {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+    }
+
+    .btn-chat p {
+        font-size: 18px;
+    }
+
+    .wrap-card {
+        gap: 16px;
+    }
+
+    .card:hover .wrap-text {
+        margin-top: 0;
+    }
+    
+    .content .card {
+        width: 132px !important;
+        height: 133px !important;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .background-img-card{
+        width: 132px !important;
+        height: 133px !important;
+    }
+
+    .content .card .wrap-text {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: max-content;
+    }
+
+    .content .card .wrap-text .text{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .content .card .wrap-text .sub-text{
+        display: none;
+    }
+
+    .content .card .wrap-text .text{
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .img-card-Marketing{
+        left: -18px;
+        width: 116px;
+        height: 133px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .img-card-Technology{
+        object-fit: cover;
+        width: 116px;
+        height: 133px;
+        border-radius: 5px;
+    }
+
+    .img-card-Cooking{
+        object-fit: cover;
+        width: 116px;
+        height: 133px;
+        border-radius: 5px;
+    }
+
+    .img-card-Programming{
+        object-fit: cover;
+        width: 116px;
+        height: 133px;
+        border-radius: 5px;
+    }
+
+    .img-card-Design {
+        object-fit: cover;
+        width: 116px;
+        height: 133px;
+        border-radius: 5px;
+    }
+
+    .img-cart-Photography{
+        object-fit: cover;
+        width: 116px;
+        height: 133px;
+        border-radius: 5px;
+
+    }
+    .wrap-carousel{
+        display: none;
+    }
+
+    .cartegories{
+        width: 221px;
+        height: 36px;
+        left: 100px;
+        top: 148px;
+        font-size: 24px;
+        position: relative;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    .options-chat {
+        position: absolute;
+        transform: translate(50%, -50%);
+    }
+
+
+
+}
